@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 5vh;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+}
+ 
+.username-text{
+    margin: 1rem 0px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 8rem;
+    /* display: none; */
+}
+
+.header-title {
+    cursor: pointer;
+}
+
+.explore-button {
+    color: #00a278 !important;
+}
+
+@media screen and (min-width: 768px) {
+    .username-text {
+        margin: 1rem 0px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 8rem;
+        display: block;
+    }
+}
+/* ------------------------ */
+.avatar{
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
